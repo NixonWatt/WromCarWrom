@@ -26,6 +26,7 @@ public class CarControllerScript : MonoBehaviour
 
         wheelColliders[0].steerAngle = finalAngle;
         wheelColliders[3].steerAngle = finalAngle;
+
         for (int i = 0; i < 4; i++) {
             wheelColliders[i].motorTorque = maxTorque;
         }
